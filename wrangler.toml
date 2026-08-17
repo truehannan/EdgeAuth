@@ -1,4 +1,4 @@
-name = "edge-auth"
+name = "edgeauth"
 main = "src/index.js"
 compatibility_date = "2024-09-09"
 compatibility_flags = ["nodejs_compat"]
