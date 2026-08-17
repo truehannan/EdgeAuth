@@ -16,15 +16,15 @@ compatibility_flags = ["nodejs_compat"]
 # Note: Use secrets to store sensitive data.
 # - https://developers.cloudflare.com/workers/configuration/secrets/
 [vars]
-USER_EMAIL="user@gmail.com"
-USER_PASSWORD="pass"
-ENCRYPTION_KEY="base64_encoded_key"
+USER_EMAIL="user@example.com"
+USER_PASSWORD="password"
+ENCRYPTION_KEY="d29yZXBhcmVudGVzc2VudGlhbHdoaXRlc2VjcmV0dW5sZXNzbmV4dGF2ZXJhZ2VzY3I="
 # ENCRYPTION_KEY is a base64 encoded key from a 32 byte AES-GCM compatible key
 
 [[d1_databases]]
 binding = "DB" # i.e. available in your Worker on env.DB
 database_name = "prod-edge-auth"
-database_id = "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
+database_id = "267a6221-dfd3-4fa3-8acc-41a0725b6150"
 
 #
 # Bind the Workers AI model catalog. Run machine learning models, powered by serverless GPUs, on Cloudflare’s global network
