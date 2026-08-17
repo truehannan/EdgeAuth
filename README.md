@@ -16,10 +16,6 @@
 
 ## Screenshots
 
-![Alt text](https://github.com/alanJames00/EdgeAuth/blob/master/screenshots/login.jpeg)
-
-- Login Page
-
 ![Alt text](https://github.com/alanJames00/EdgeAuth/blob/master/screenshots/home_page.jpeg)
 
 - Home Page
